@@ -2,14 +2,43 @@ body {
     margin-left: auto;
     margin-right: auto;
     max-width: 50vw;
+    font-family: 'Inconsolata', monospace;
+    background-color: black;
+    color: white;
 }
 
 .heading {
     text-align: center;
-    font-size: x-large;
+    font-size: xx-large;
+    font-weight: 1000;
 }
 
 .blog {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: medium;
+}
+
+.allposts {
+    color: cornflowerblue;
+    font-size: medium;
+    text-decoration: none;
+}
+
+.allposts:hover {
+    color: red;
+}
+
+.date {
+    font-size: small;
+}
+
+.blogtitle {
+    color: cornflowerblue;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+.blogtitle:hover {
+    color: crimson;
 }
